@@ -1,0 +1,50 @@
+.big {
+    margin-top:600px;
+    margin:auto;
+    text-align: center;
+    font-size: 7rem;
+    color: red;
+    transition: all 750ms;
+    text-shadow: 25px 25px 30px black;
+}
+
+.small {
+    margin-top:600px;
+    margin:auto;
+    text-align: center;
+    font-size: 2rem;
+    color: blue;
+    transition: all 750ms;
+    text-shadow: 5px 5px 10px black;
+}
+
+header {
+    margin-top:600px;
+    margin:auto;
+    text-align: center;
+}
+.redbody {
+    background-color: red;
+    transition: 750ms;
+}
+
+.bluebody {
+    background-color: blue;
+    transition: 750ms;
+}
+
+#text {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    flex-direction: column;
+    /* border: black 10px solid; */
+    height: 90vh;
+    width: 96vw;
+}
+
+html {
+    display: flexbox;
+    justify-content: center;
+    align-content: center;
+}
